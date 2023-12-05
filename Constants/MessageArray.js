@@ -1,0 +1,100 @@
+export const MessageArray = [
+    {
+        id: "1",
+        message: "This message is sent to nivin by noufal",
+        username: "noufal__rahim",
+        sender: "noufal__rahim",
+        senderName: "Noufal Rahim",
+        reciever: "niv.in",
+        time: "10:00",
+        date: "10/10/2020",
+        status: "sent",
+        type: "text",
+        image: "https://media.licdn.com/dms/image/D5603AQHHzazLfgFqfg/profile-displayphoto-shrink_800_800/0/1685229003246?e=2147483647&v=beta&t=fwGQ3HuirH_wy3598rC1rcQJXXfJlIn4t81Gs95pvd4"
+    },
+    {
+        id: "2",
+        message: "This message is sent to noufal by nivin",
+        username: "niv.in",
+        sender: "niv.in",
+        senderName: "Nivin Prasad",
+        reciever: "noufal__rahim",
+        time: "10:00",
+        date: "10/10/2020",
+        status: "sent",
+        type: "text",
+        image: "https://pps.whatsapp.net/v/t61.24694-24/328756922_762486172125023_3980025233706557095_n.jpg?ccb=11-4&oh=01_AdS_qTPp2vFRUAQ2YVDnWu5Y9Cl8pG8INu-vT1iYLLCD_g&oe=650D3E57&_nc_sid=000000&_nc_cat=100"
+    },
+    {
+        id: "3",
+        message: "This message is sent to praful by noufal",
+        username: "noufal__rahim",
+        sender: "noufal__rahim",
+        senderName: "Noufal Rahim",
+        reciever: "praful",
+        time: "10:00",
+        date: "10/10/2020",
+        status: "sent",
+        type: "text",
+        image: "https://media.licdn.com/dms/image/D5603AQHHzazLfgFqfg/profile-displayphoto-shrink_800_800/0/1685229003246?e=2147483647&v=beta&t=fwGQ3HuirH_wy3598rC1rcQJXXfJlIn4t81Gs95pvd4"
+    },
+    {
+        id: "4",
+        message: "This message is sent to noufal by praful",
+        username: "praful",
+        sender: "praful",
+        senderName: "Praful Harikumar",
+        reciever: "noufal__rahim",
+        time: "10:00",
+        date: "10/10/2020",
+        status: "sent",
+        type: "text",
+        image: "https://pps.whatsapp.net/v/t61.24694-24/328061888_909510830400837_1540085199627624271_n.jpg?ccb=11-4&oh=01_AdTI0dguhNd_-rnMqyP9xWHD-80BtyBaU2H-Deu90Q_AQQ&oe=650F0844&_nc_sid=000000&_nc_cat=106"
+    },
+    {
+        id: "5",
+        message: "This message is sent to praful by nivin",
+        username: "niv.in",
+        sender: "niv.in",
+        senderName: "Nivin Prasad",
+        reciever: "praful",
+        time: "10:00",
+        date: "10/10/2020",
+        status: "sent",
+        type: "text",
+        image: "https://pps.whatsapp.net/v/t61.24694-24/328756922_762486172125023_3980025233706557095_n.jpg?ccb=11-4&oh=01_AdS_qTPp2vFRUAQ2YVDnWu5Y9Cl8pG8INu-vT1iYLLCD_g&oe=650D3E57&_nc_sid=000000&_nc_cat=100"
+    },
+]
+
+export const GroupMessageArray = [
+    {
+        id: "1",
+        message: "This message is sent to a group containing noufal, nivin and praful by noufal",
+        groupName: "👬🥰BezT FrieNDzz🔥",
+        sender: "noufal__rahim",
+        senderName: "Noufal Rahim",
+        senderImage: "https://media.licdn.com/dms/image/D5603AQHHzazLfgFqfg/profile-displayphoto-shrink_800_800/0/1685229003246?e=2147483647&v=beta&t=fwGQ3HuirH_wy3598rC1rcQJXXfJlIn4t81Gs95pvd4",
+        reciever: "Group1",
+        time: "10:00",
+        date: "10/10/2020",
+        status: "sent",
+        type: "text",
+        groupMembers: ["noufal__rahim", "niv.in", "praful"],
+        image: "https://pps.whatsapp.net/v/t61.24694-24/364514438_684073666870908_3943510886928981484_n.jpg?ccb=11-4&oh=01_AdTkE6mcdrxihN2BlJQ61gm8tAXUKFeTN6W9_xVrgn2Hpw&oe=652D3617&_nc_sid=000000&_nc_cat=101"
+    },
+    {
+        id: "2",
+        message: "This message is sent to a group containing noufal, nivin and praful by nivin",
+        groupName: "👬🥰BezT FrieNDzz🔥",
+        sender: "niv.in",
+        senderName: "Nivin Prasad",
+        senderImage: "https://pps.whatsapp.net/v/t61.24694-24/328756922_762486172125023_3980025233706557095_n.jpg?ccb=11-4&oh=01_AdReXp9LLO6tNexwa1jUMgfB73FTYT0X40ZsMctH9qk5Wg&oe=652DC357&_nc_sid=000000&_nc_cat=100",
+        reciever: "Group1",
+        time: "10:00",
+        date: "10/10/2020",
+        status: "sent",
+        type: "text",
+        groupMembers: ["noufal__rahim", "niv.in", "praful"],
+        image: "https://pps.whatsapp.net/v/t61.24694-24/364514438_684073666870908_3943510886928981484_n.jpg?ccb=11-4&oh=01_AdTkE6mcdrxihN2BlJQ61gm8tAXUKFeTN6W9_xVrgn2Hpw&oe=652D3617&_nc_sid=000000&_nc_cat=101"
+    },
+]
